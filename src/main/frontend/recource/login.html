@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In | Gemora</title>
+    <meta name="description" content="Sign in to your Gemora account to access seller dashboard and premium features.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <div class="logo-icon">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 2L6 10L16 30L26 10L16 2Z" fill="url(#loginLogoGradient)"/>
+                        <path d="M16 2L10 8L16 14L22 8L16 2Z" fill="url(#loginLogoGradient2)"/>
+                        <defs>
+                            <linearGradient id="loginLogoGradient" x1="16" y1="2" x2="16" y2="30" gradientUnits="userSpaceOnUse">
+                                <stop offset="0%" stop-color="#6366f1"/>
+                                <stop offset="50%" stop-color="#8b5cf6"/>
+                                <stop offset="100%" stop-color="#ec4899"/>
+                            </linearGradient>
+                            <linearGradient id="loginLogoGradient2" x1="16" y1="2" x2="16" y2="14" gradientUnits="userSpaceOnUse">
+                                <stop offset="0%" stop-color="#ffffff" stop-opacity="0.3"/>
+                                <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <span class="logo-text">Gemora</span>
+            </a>
+            <div class="nav-menu" id="navMenu">
+                <a href="marketplace.html" class="nav-link">Marketplace</a>
+                <a href="index.html#workflow" class="nav-link">How It Works</a>
+                <a href="index.html#plans" class="nav-link">Pricing</a>
+                <a href="index.html#testimonials" class="nav-link">Reviews</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <a href="login.html" class="btn-ghost">Sign In</a>
+                <a href="seller.html" class="btn-gradient">Become Seller</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Login Section -->
+    <section class="seller-form-section" style="padding: 120px 0;">
+        <div class="container">
+            <div style="max-width: 450px; margin: 0 auto;">
+                <div class="form-header" style="text-align: center; margin-bottom: 48px;">
+                    <h2 style="font-size: 40px; font-weight: 700; margin-bottom: 12px;">Welcome Back</h2>
+                    <p style="color: var(--text-secondary);">Sign in to access your account</p>
+                </div>
+                
+                <form id="loginForm" class="seller-form" style="padding: 40px;">
+                    <div class="form-group">
+                        <label for="loginEmail" class="form-label">Email Address</label>
+                        <input type="email" id="loginEmail" name="loginEmail" class="form-input" placeholder="your@email.com" required>
+                        <span class="form-error" id="loginEmailError"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="loginPassword" class="form-label">Password</label>
+                        <input type="password" id="loginPassword" name="loginPassword" class="form-input" placeholder="Enter your password" required>
+                        <span class="form-error" id="loginPasswordError"></span>
+                    </div>
+                    
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px;">
+                        <label style="display: flex; align-items: center; gap: 8px; font-size: 14px; color: var(--text-secondary); cursor: pointer;">
+                            <input type="checkbox" style="width: 16px; height: 16px; cursor: pointer;">
+                            <span>Remember me</span>
+                        </label>
+                        <a href="#" style="color: var(--primary-light); text-decoration: none; font-size: 14px;">Forgot password?</a>
+                    </div>
+                    
+                    <div class="form-actions" style="margin-top: 32px;">
+                        <button type="submit" class="btn-primary-large" style="width: 100%;">
+                            <span id="loginSubmitText">Sign In</span>
+                        </button>
+                        <p class="form-success" id="loginSuccessMessage"></p>
+                        <p class="form-error" id="loginErrorMessage"></p>
+                    </div>
+                    
+                    <div style="text-align: center; margin-top: 24px; padding-top: 24px; border-top: 1px solid var(--border-color);">
+                        <p style="color: var(--text-secondary); font-size: 14px; margin-bottom: 16px;">
+                            Don't have an account? <a href="seller.html" style="color: var(--primary-light); text-decoration: none; font-weight: 500;">Become a Seller</a>
+                        </p>
+                        <p style="color: var(--text-secondary); font-size: 14px;">
+                            Just browsing? <a href="marketplace.html" style="color: var(--primary-light); text-decoration: none; font-weight: 500;">Browse Marketplace</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 2L6 10L16 30L26 10L16 2Z" fill="url(#loginFooterLogoGradient)"/>
+                                <path d="M16 2L10 8L16 14L22 8L16 2Z" fill="url(#loginFooterLogoGradient2)"/>
+                                <defs>
+                                    <linearGradient id="loginFooterLogoGradient" x1="16" y1="2" x2="16" y2="30" gradientUnits="userSpaceOnUse">
+                                        <stop offset="0%" stop-color="#6366f1"/>
+                                        <stop offset="50%" stop-color="#8b5cf6"/>
+                                        <stop offset="100%" stop-color="#ec4899"/>
+                                    </linearGradient>
+                                    <linearGradient id="loginFooterLogoGradient2" x1="16" y1="2" x2="16" y2="14" gradientUnits="userSpaceOnUse">
+                                        <stop offset="0%" stop-color="#ffffff" stop-opacity="0.3"/>
+                                        <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <span class="logo-text">Gemora</span>
+                    </div>
+                    <p class="footer-description">Connecting gem experts with global buyers through authenticity, transparency, and premium support.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <a href="about.html">About</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Resources</h4>
+                        <a href="#">Seller Handbook</a>
+                        <a href="contact.html">Support</a>
+                        <a href="#">Documentation</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Contact</h4>
+                        <a href="mailto:hello@gemmarket.app">hello@gemmarket.app</a>
+                        <a href="tel:+94771234567">+94 77 123 4567</a>
+                    </div>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Stay Updated</h4>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Enter your email" class="newsletter-input">
+                        <button class="newsletter-btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Gemora. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Login form handling
+        document.addEventListener('DOMContentLoaded', function() {
+            const loginForm = document.getElementById('loginForm');
+            if (loginForm) {
+                loginForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    // Clear previous errors
+                    document.querySelectorAll('#loginForm .form-error').forEach(error => {
+                        error.classList.remove('show');
+                        error.textContent = '';
+                    });
+                    
+                    const submitBtn = loginForm.querySelector('button[type="submit"]');
+                    const submitText = document.getElementById('loginSubmitText');
+                    const successMessage = document.getElementById('loginSuccessMessage');
+                    const errorMessage = document.getElementById('loginErrorMessage');
+                    
+                    const email = document.getElementById('loginEmail').value.trim();
+                    const password = document.getElementById('loginPassword').value;
+                    
+                    if (!email) {
+                        document.getElementById('loginEmailError').textContent = 'Email is required.';
+                        document.getElementById('loginEmailError').classList.add('show');
+                        return;
+                    }
+                    
+                    if (!password) {
+                        document.getElementById('loginPasswordError').textContent = 'Password is required.';
+                        document.getElementById('loginPasswordError').classList.add('show');
+                        return;
+                    }
+                    
+                    // Disable submit button
+                    submitBtn.disabled = true;
+                    submitText.textContent = 'Signing in...';
+                    
+                    // Simulate login
+                    setTimeout(() => {
+                        // For demo purposes, show success
+                        if (successMessage) {
+                            successMessage.textContent = 'Login successful! Redirecting...';
+                            successMessage.classList.add('show');
+                            successMessage.style.color = 'var(--success)';
+                        }
+                        
+                        setTimeout(() => {
+                            alert('Login successful! (This is a demo - no actual authentication is performed)');
+                            // In a real app, you would redirect to dashboard
+                            // window.location.href = 'dashboard.html';
+                        }, 1500);
+                    }, 1200);
+                });
+            }
+        });
+    </script>
+</body>
+</html>
+
+

@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemora | Discover Certified Gems & Jewel Sellers</title>
+    <meta name="description" content="Explore authentic gems from verified sellers. Manage listings, premium promotions, and subscriptions in one trusted marketplace.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="bg-slate-50 text-slate-900">
+        <!-- Navigation -->
+        <nav class="nav">
+            <div class="nav-container">
+                <a href="index.html" class="nav-logo">
+                    <div class="logo-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 2L6 10L16 30L26 10L16 2Z" fill="url(#indexLogoGradient)"/>
+                            <path d="M16 2L10 8L16 14L22 8L16 2Z" fill="url(#indexLogoGradient2)"/>
+                            <defs>
+                                <linearGradient id="indexLogoGradient" x1="16" y1="2" x2="16" y2="30" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0%" stop-color="#6366f1"/>
+                                    <stop offset="50%" stop-color="#8b5cf6"/>
+                                    <stop offset="100%" stop-color="#ec4899"/>
+                                </linearGradient>
+                                <linearGradient id="indexLogoGradient2" x1="16" y1="2" x2="16" y2="14" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0%" stop-color="#ffffff" stop-opacity="0.3"/>
+                                    <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <span class="logo-text">Gemora</span>
+                </a>
+                <div class="nav-menu" id="navMenu">
+                    <a href="marketplace.html" class="nav-link">Marketplace</a>
+                    <a href="index.html#workflow" class="nav-link">How It Works</a>
+                    <a href="index.html#plans" class="nav-link">Pricing</a>
+                    <a href="index.html#testimonials" class="nav-link">Reviews</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </div>
+                <div class="nav-actions">
+                    <a href="login.html" class="btn-ghost">Sign In</a>
+                    <a href="seller.html" class="btn-gradient">Become Seller</a>
+                </div>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+
+        <main class="space-y-0">
+            <!-- Hero Section -->
+            <section class="hero-section">
+                <div class="hero-background">
+                    <div class="hero-blur-1"></div>
+                    <div class="hero-blur-2"></div>
+                    <div class="hero-gradient-line"></div>
+                </div>
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <span class="hero-badge">
+                            <span class="badge-dot"></span>
+                            Trusted by certified gem sellers worldwide
+                        </span>
+                        <div class="hero-heading-group">
+                            <h1 class="hero-title">A premium marketplace for authenticated gemstones and serious buyers.</h1>
+                            <p class="hero-description">Showcase your inventory to collectors, exporters, and jewel houses with full compliance. Gemora verifies every seller and amplifies premium gems with AI-powered matchmaking.</p>
+                        </div>
+                        <div class="hero-actions">
+                            <a href="seller.html" class="btn-hero-primary">
+                                Start selling
+                                <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m0 0l-6-6m6 6l-6 6" />
+                                </svg>
+                            </a>
+                            <a href="#marketplace" class="btn-hero-secondary">Explore listings</a>
+                        </div>
+                        <div class="hero-stats">
+                            <div>
+                                <p class="stat-value">24h</p>
+                                <p>Average verification time</p>
+                            </div>
+                            <div>
+                                <p class="stat-value">97%</p>
+                                <p>Buyer satisfaction score</p>
+                            </div>
+                            <div>
+                                <p class="stat-value">12+</p>
+                                <p>Premium boosts per seller</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-card">
+                        <div class="hero-card-blur-1"></div>
+                        <div class="hero-card-blur-2"></div>
+                        <div class="hero-card-content">
+                            <div class="hero-card-header">
+                                <div class="hero-card-label">Live spotlight</div>
+                                <span class="hero-card-badge">
+                                    <span class="pulse-dot"></span>
+                                    Premium
+                                </span>
+                            </div>
+                            <div class="hero-card-listings">
+                                <div class="hero-card-listing">
+                                    <p class="listing-tag">Certified</p>
+                                    <h3 class="listing-title">Ceylon Blue Sapphire · 4.8ct</h3>
+                                    <div class="listing-footer">
+                                        <span>Colombo, Sri Lanka</span>
+                                        <span>US$ 11,900</span>
+                                    </div>
+                                </div>
+                                <div class="hero-card-listing">
+                                    <p class="listing-tag cyan">New Arrival</p>
+                                    <h3 class="listing-title">Imperial Ruby Cluster · 2.3ct</h3>
+                                    <div class="listing-footer">
+                                        <span>Ratnapura, Sri Lanka</span>
+                                        <span>US$ 7,650</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hero-card-stats">
+                                <div class="hero-card-stats-header">
+                                    <span>Engagement</span>
+                                    <span>Last 7 days</span>
+                                </div>
+                                <div class="hero-card-stats-grid">
+                                    <div>
+                                        <p class="stat-number">9.4k</p>
+                                        <p>Listing impressions</p>
+                                    </div>
+                                    <div>
+                                        <p class="stat-number">182</p>
+                                        <p>Qualified leads</p>
+                                    </div>
+                                </div>
+                                <div class="hero-card-chart"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Trusted By -->
+            <section class="trusted-section">
+                <div class="trusted-container">
+                    <p class="section-label">Trusted by leading gemstone brands</p>
+                    <div class="trusted-grid">
+                        <div class="trusted-item">Serendib Gems</div>
+                        <div class="trusted-item">Aurora Jewel Traders</div>
+                        <div class="trusted-item">Luxe Gem Labs</div>
+                        <div class="trusted-item">Ceylon Sapphire House</div>
+                        <div class="trusted-item">Sri Gem Exporters</div>
+                        <div class="trusted-item">Global Jewel Exchange</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Marketplace Highlights -->
+            <section id="marketplace" class="marketplace-section">
+                <div class="marketplace-gradient-line-top"></div>
+                <div class="marketplace-gradient-line-bottom"></div>
+                <div class="marketplace-container">
+                    <div class="marketplace-content">
+                        <div class="marketplace-text">
+                            <p class="section-label emerald">Marketplace</p>
+                            <h2 class="section-title">Built for transparency, driven by credibility.</h2>
+                            <p class="section-description">Each listing pairs crystal-clear media, GemReg certificates, and seller reputation scores. Buyers view authenticity badges, chat in real time, and request inspections seamlessly.</p>
+                            <div class="marketplace-stats">
+                                <div class="stat-card">
+                                    <p class="stat-label">Verified sellers</p>
+                                    <p class="stat-number-large">420+</p>
+                                </div>
+                                <div class="stat-card">
+                                    <p class="stat-label">Certified gemstones</p>
+                                    <p class="stat-number-large">3.6k</p>
+                                </div>
+                                <div class="stat-card">
+                                    <p class="stat-label">Global buyers monthly</p>
+                                    <p class="stat-number-large">18k</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="marketplace-features">
+                            <div class="feature-card">
+                                <h3>Curated gem collections</h3>
+                                <p>Filter by origin, lab certification, cut quality, and price. Save search alerts for collector-grade stones.</p>
+                            </div>
+                            <div class="feature-card">
+                                <h3>Immersive media vault</h3>
+                                <p>Upload 4K video, 360° spins, and macro photography. Buyers preview gems in realistic light simulations.</p>
+                            </div>
+                            <div class="feature-card">
+                                <h3>Lead concierge</h3>
+                                <p>Smart lead routing, response time analytics, and CRM integrations keep negotiations moving fast.</p>
+                            </div>
+                            <div class="feature-card">
+                                <h3>Compliance dashboard</h3>
+                                <p>Manage renewals, view verification statuses, and access audit logs directly from your seller console.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Featured Listings -->
+            <section class="featured-section">
+                <div class="featured-background">
+                    <div class="featured-blur-1"></div>
+                    <div class="featured-blur-2"></div>
+                </div>
+                <div class="featured-container">
+                    <div class="featured-header">
+                        <div class="featured-text">
+                            <p class="section-label emerald-light">Premium gems</p>
+                            <h2 class="section-title white">Spotlight listings powered by premium boosts.</h2>
+                            <p class="section-description white">Premium sellers unlock AI-matched leads, homepage placement, and deeper analytics on buyer intent.</p>
+                        </div>
+                        <a href="marketplace.html" class="btn-outline-white">
+                            View marketplace
+                            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m0 0l-6-6m6 6l-6 6" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="featured-grid">
+                        <article class="featured-card">
+                            <div class="featured-card-gradient emerald-gradient"></div>
+                            <div class="featured-card-content">
+                                <span class="featured-badge">
+                                    <span class="badge-dot"></span>
+                                    Premium boost · 6 days left
+                                </span>
+                                <div class="featured-card-text">
+                                    <h3>Untreated Cornflower Sapphire · 3.2ct</h3>
+                                    <p>Colombo, Sri Lanka</p>
+                                </div>
+                                <div class="featured-card-price">
+                                    <div class="price-row">
+                                        <span>Asking price</span>
+                                        <span class="price-value">US$ 9,850</span>
+                                    </div>
+                                    <div class="price-footer">
+                                        <span>Documents · GIA, GemReg</span>
+                                        <span>Views · 2.3k</span>
+                                    </div>
+                                </div>
+                                <button class="btn-featured" onclick="handleContactSeller()">Contact seller</button>
+                            </div>
+                        </article>
+                        <article class="featured-card">
+                            <div class="featured-card-gradient rose-gradient"></div>
+                            <div class="featured-card-content">
+                                <span class="featured-badge">
+                                    <span class="badge-dot"></span>
+                                    Homepage spotlight
+                                </span>
+                                <div class="featured-card-text">
+                                    <h3>Pigeon Blood Ruby Suite · 2.1ct</h3>
+                                    <p>Ratnapura, Sri Lanka</p>
+                                </div>
+                                <div class="featured-card-price">
+                                    <div class="price-row">
+                                        <span>Asking price</span>
+                                        <span class="price-value">US$ 6,500</span>
+                                    </div>
+                                    <div class="price-footer">
+                                        <span>Documents · GIA, GemReg</span>
+                                        <span>Views · 2.3k</span>
+                                    </div>
+                                </div>
+                                <button class="btn-featured" onclick="handleContactSeller()">Contact seller</button>
+                            </div>
+                        </article>
+                        <article class="featured-card">
+                            <div class="featured-card-gradient purple-gradient"></div>
+                            <div class="featured-card-content">
+                                <span class="featured-badge">
+                                    <span class="badge-dot"></span>
+                                    GemLab certified
+                                </span>
+                                <div class="featured-card-text">
+                                    <h3>Alexandrite Colour Change · 1.6ct</h3>
+                                    <p>Galle, Sri Lanka</p>
+                                </div>
+                                <div class="featured-card-price">
+                                    <div class="price-row">
+                                        <span>Asking price</span>
+                                        <span class="price-value">US$ 4,300</span>
+                                    </div>
+                                    <div class="price-footer">
+                                        <span>Documents · GIA, GemReg</span>
+                                        <span>Views · 2.3k</span>
+                                    </div>
+                                </div>
+                                <button class="btn-featured" onclick="handleContactSeller()">Contact seller</button>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Seller Workflow -->
+            <section id="workflow" class="workflow-section">
+                <div class="workflow-container">
+                    <div class="workflow-header">
+                        <p class="section-label emerald">Seller journey</p>
+                        <h2 class="section-title">Compliance-first onboarding with concierge support at every step.</h2>
+                        <p class="section-description">From document checks to premium promotion, Gemora automates the manual work so you can scale your inventory and reach vetted buyers faster.</p>
+                    </div>
+                    <div class="workflow-content">
+                        <div class="workflow-dashboard">
+                            <div class="workflow-dashboard-blur-1"></div>
+                            <div class="workflow-dashboard-blur-2"></div>
+                            <div class="workflow-dashboard-content">
+                                <div class="workflow-dashboard-header">
+                                    <span class="workflow-dashboard-label">Seller command center</span>
+                                    <span class="workflow-dashboard-badge">
+                                        <span class="badge-dot"></span>
+                                        Live
+                                    </span>
+                                </div>
+                                <div class="workflow-dashboard-status">
+                                    <div class="workflow-dashboard-status-header">
+                                        <span>Verification status</span>
+                                        <span>Updated · 5 mins ago</span>
+                                    </div>
+                                    <div class="workflow-status-list">
+                                        <div class="workflow-status-item">
+                                            <span>NIC review</span>
+                                            <span class="status-badge approved">Approved</span>
+                                        </div>
+                                        <div class="workflow-status-item">
+                                            <span>GemReg certificate</span>
+                                            <span class="status-badge approved">Approved</span>
+                                        </div>
+                                        <div class="workflow-status-item">
+                                            <span>AML checks</span>
+                                            <span class="status-badge pending">Pending</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="workflow-dashboard-metrics">
+                                    <div class="workflow-metric">
+                                        <p class="metric-label">Renewal reminder</p>
+                                        <p class="metric-value">12 days</p>
+                                    </div>
+                                    <div class="workflow-metric">
+                                        <p class="metric-label">Premium boosts left</p>
+                                        <p class="metric-value">3</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="workflow-steps">
+                            <div class="workflow-step">
+                                <span class="step-number">1</span>
+                                <div class="step-content">
+                                    <h3>1. Submit documents</h3>
+                                    <p>Upload NIC, GemReg certificate, and business profile. Automatic OCR checks flag issues instantly.</p>
+                                </div>
+                            </div>
+                            <div class="workflow-step">
+                                <span class="step-number">2</span>
+                                <div class="step-content">
+                                    <h3>2. Get verified & subscribe</h3>
+                                    <p>Choose the right monthly plan, set up payments, and activate premium boosts once approval lands.</p>
+                                </div>
+                            </div>
+                            <div class="workflow-step">
+                                <span class="step-number">3</span>
+                                <div class="step-content">
+                                    <h3>3. Launch listings</h3>
+                                    <p>Import inventory, schedule releases, and enrich listings with high-resolution media and certificates.</p>
+                                </div>
+                            </div>
+                            <div class="workflow-step">
+                                <span class="step-number">4</span>
+                                <div class="step-content">
+                                    <h3>4. Capture and manage leads</h3>
+                                    <p>Real-time notifications, buyer vetting, and CRM integrations keep conversations authentic and fast.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Premium Promo -->
+            <section id="premium" class="premium-section">
+                <div class="premium-background">
+                    <div class="premium-blur-1"></div>
+                    <div class="premium-blur-2"></div>
+                </div>
+                <div class="premium-container">
+                    <div class="premium-content">
+                        <div class="premium-text">
+                            <p class="section-label white-label">Premium badge</p>
+                            <h2 class="section-title white">Showcase hero listings with homepage placement and smart retargeting.</h2>
+                            <p class="section-description white">Premium boosts elevate your gem to the top of search results, feature it in curated collections, and trigger tailored buyer notifications. It's the fastest path to qualified conversations.</p>
+                            <ul class="premium-features-list">
+                                <li>
+                                    <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 5.25 9-13.5" />
+                                    </svg>
+                                    <span>Homepage takeover with badge & animation</span>
+                                </li>
+                                <li>
+                                    <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 5.25 9-13.5" />
+                                    </svg>
+                                    <span>AI buyer matching and instant lead alerts</span>
+                                </li>
+                                <li>
+                                    <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 5.25 9-13.5" />
+                                    </svg>
+                                    <span>Performance dashboard with conversion insights</span>
+                                </li>
+                                <li>
+                                    <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 5.25 9-13.5" />
+                                    </svg>
+                                    <span>Optional escrow concierge for closing deals</span>
+                                </li>
+                            </ul>
+                            <div class="premium-actions">
+                                <a href="#plans" class="btn-white">See premium pricing</a>
+                                <a href="#contact" class="btn-outline-white">Talk to an expert</a>
+                            </div>
+                        </div>
+                        <div class="premium-card">
+                            <div class="premium-card-blur"></div>
+                            <div class="premium-card-content">
+                                <div class="premium-card-header">
+                                    <span>Boost summary</span>
+                                    <span class="premium-card-badge">Active</span>
+                                </div>
+                                <div class="premium-card-details">
+                                    <div class="premium-card-listing">
+                                        <p class="premium-card-label">Listing</p>
+                                        <h3>Blue Sapphire Cabochon · 5.1ct</h3>
+                                        <p>Featured until 18 Nov · Colombo, Sri Lanka</p>
+                                    </div>
+                                    <div class="premium-card-metrics">
+                                        <div>
+                                            <p class="premium-metric-label">Buyer views</p>
+                                            <p class="premium-metric-value">2,340</p>
+                                            <p class="premium-metric-sub">+86% vs. standard</p>
+                                        </div>
+                                        <div>
+                                            <p class="premium-metric-label">Lead quality</p>
+                                            <p class="premium-metric-value">92%</p>
+                                            <p class="premium-metric-sub">Qualified score</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="premium-card-stats">
+                                    <div>
+                                        <p class="premium-stat-label">Views</p>
+                                        <p class="premium-stat-value">8.1k</p>
+                                    </div>
+                                    <div>
+                                        <p class="premium-stat-label">Saves</p>
+                                        <p class="premium-stat-value">430</p>
+                                    </div>
+                                    <div>
+                                        <p class="premium-stat-label">Leads</p>
+                                        <p class="premium-stat-value">18</p>
+                                    </div>
+                                </div>
+                                <button class="btn-premium-activate" onclick="handlePremiumBoost()">Activate premium boost</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Subscription Plans -->
+            <section id="plans" class="plans-section">
+                <div class="plans-container">
+                    <div class="plans-header">
+                        <div class="plans-text">
+                            <p class="section-label emerald-light">Pricing</p>
+                            <h2 class="section-title white">Choose the partnership that matches your pipeline.</h2>
+                            <p class="section-description white">Subscriptions are flexible and cancellable. Upgrade plans seamlessly as inventory grows, and add premium boosts on demand for special drops.</p>
+                            <div class="plans-benefits">
+                                <div class="benefit-item">
+                                    <span class="benefit-dot"></span>
+                                    3% platform fee only when a lead converts to a closed deal.
+                                </div>
+                                <div class="benefit-item">
+                                    <span class="benefit-dot"></span>
+                                    Pause subscriptions anytime without losing verification history.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="plans-sidebar">
+                            <div class="plans-sidebar-card">
+                                <p class="plans-sidebar-label">Concierge add-ons</p>
+                                <p>Escrow support, logistics coordination, and gemstone photography available on request.</p>
+                            </div>
+                            <div class="plans-divider">
+                                <span class="divider-line"></span>
+                                <span>Monthly plans</span>
+                                <span class="divider-line"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plans-grid">
+                        <div class="plan-card">
+                            <span class="plan-badge">Perfect for boutique jewelers</span>
+                            <div class="plan-header">
+                                <h3>Starter Seller</h3>
+                                <p class="plan-price">US$ 19<span class="plan-period"> / month</span></p>
+                            </div>
+                            <ul class="plan-features">
+                                <li>
+                                    <svg class="check-icon emerald" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 5.25 9-13.5" />
+                                    </svg>
+                                    <span>Up to 5 active listings</span>
+                                </li>
+                                <li>
+                                    <svg class="check-icon emerald" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 5.25 9-13.5" />
+                                    </svg>
+                                    <span>Document compliance tracker</span>
+                                </li>
+                                <li>
+                                    <svg class="check-icon emerald" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 5.25 9-13.5" />
+                                    </svg>
+                                    <span>Email lead notifications</span>
+                                </li>
+                                <li>
+                                    <svg class="check-icon emerald" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 5.25 9-13.5" />
+                                    </svg>
+                                    <span>Performance snapshot dashboard</span>
+                                </li>
+                            </ul>
+                            <button class="btn-plan" onclick="handleChoosePlan()">Choose plan</button>
+                        </div>
+                        <div class="plan-card featured">
+                            <span class="plan-badge">Most selected</span>
+                            <div class="plan-header">
+                                <h3>Growth Seller</h3>
+                                <p class="plan-price">US$ 45<span class="plan-period"> / month</span></p>
+                            </div>
+                            <ul class="plan-features">
+                                <li>
+                                    <svg class="check-icon emerald" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 5.25 9-13.5" />
+                                    </svg>
+                                    <span>Up to 25 active listings</span>
+                                </li>
+                                <li>
+                                    <svg class="check-icon emerald" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 5.25 9-13.5" />
+                                    </svg>
+                                    <span>2 premium boosts included</span>
+                                </li>
+                                <li>
+                                    <svg class="check-icon emerald" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 5.25 9-13.5" />
+                                    </svg>
+                                    <span>WhatsApp & SMS lead alerts</span>
+                                </li>
+                                <li>
+                                    <svg class="check-icon emerald" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 5.25 9-13.5" />
+                                    </svg>
+                                    <span>Advanced analytics & exports</span>
+                                </li>
+                            </ul>
+                            <button class="btn-plan" onclick="handleChoosePlan()">Choose plan</button>
+                        </div>
+                        <div class="plan-card">
+                            <span class="plan-badge">For large-scale traders</span>
+                            <div class="plan-header">
+                                <h3>Elite Trader</h3>
+                                <p class="plan-price">US$ 85<span class="plan-period"> / month</span></p>
+                            </div>
+                            <ul class="plan-features">
+                                <li>
+                                    <svg class="check-icon emerald" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 5.25 9-13.5" />
+                                    </svg>
+                                    <span>Unlimited listings & boosts</span>
+                                </li>
+                                <li>
+                                    <svg class="check-icon emerald" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 5.25 9-13.5" />
+                                    </svg>
+                                    <span>Dedicated account manager</span>
+                                </li>
+                                <li>
+                                    <svg class="check-icon emerald" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 5.25 9-13.5" />
+                                    </svg>
+                                    <span>Buyer vetting & escrow concierge</span>
+                                </li>
+                                <li>
+                                    <svg class="check-icon emerald" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 5.25 9-13.5" />
+                                    </svg>
+                                    <span>Custom API integrations</span>
+                                </li>
+                            </ul>
+                            <button class="btn-plan" onclick="handleChoosePlan()">Choose plan</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Testimonials -->
+            <section class="testimonials-section">
+                <div class="testimonials-container">
+                    <div class="testimonials-header">
+                        <div class="testimonials-text">
+                            <p class="section-label emerald">Testimonials</p>
+                            <h2 class="section-title">Trusted by Sri Lanka's leading gem exporters and boutique jewelers.</h2>
+                            <p class="section-description">Teams rely on Gemora to manage compliance, highlight premium stones, and meet buyers who value authenticity.</p>
+                        </div>
+                        <div class="testimonials-divider">
+                            <span class="divider-line"></span>
+                            <span>Verified voices</span>
+                            <span class="divider-line"></span>
+                        </div>
+                    </div>
+                    <div class="testimonials-grid">
+                        <figure class="testimonial-card">
+                            <svg class="testimonial-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M7.5 11.25v3.75a2.25 2.25 0 01-2.25 2.25m0 0h4.5m-4.5 0H3m7.5-6V6.375A2.625 2.625 0 013 6.375m18 4.875v3.75a2.25 2.25 0 01-2.25 2.25m0 0h4.5m-4.5 0H15" />
+                            </svg>
+                            <blockquote>"Gemora has become our primary export channel. Verification was seamless, and premium boosts deliver serious buyers quickly."</blockquote>
+                            <figcaption>
+                                <p class="testimonial-name">Lakshika Fernando</p>
+                                <p class="testimonial-role">Director, Serendib Gems</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="testimonial-card">
+                            <svg class="testimonial-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M7.5 11.25v3.75a2.25 2.25 0 01-2.25 2.25m0 0h4.5m-4.5 0H3m7.5-6V6.375A2.625 2.625 0 013 6.375m18 4.875v3.75a2.25 2.25 0 01-2.25 2.25m0 0h4.5m-4.5 0H15" />
+                            </svg>
+                            <blockquote>"The compliance dashboard and escrow concierge removed friction from high-value deals. Our close rate jumped 40% in three months."</blockquote>
+                            <figcaption>
+                                <p class="testimonial-name">Azlan Thassim</p>
+                                <p class="testimonial-role">Founder, Aurora Jewel Traders</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="testimonial-card">
+                            <svg class="testimonial-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M7.5 11.25v3.75a2.25 2.25 0 01-2.25 2.25m0 0h4.5m-4.5 0H3m7.5-6V6.375A2.625 2.625 0 013 6.375m18 4.875v3.75a2.25 2.25 0 01-2.25 2.25m0 0h4.5m-4.5 0H15" />
+                            </svg>
+                            <blockquote>"Buyers trust the documentation and instant messaging. We switched from traditional classifieds and now manage inventory digitally."</blockquote>
+                            <figcaption>
+                                <p class="testimonial-name">Maya Perera</p>
+                                <p class="testimonial-role">Head of Sales, Ceylon Sapphire House</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CTA Section -->
+            <section id="contact" class="cta-section">
+                <div class="cta-gradient-line-top"></div>
+                <div class="cta-gradient-line-bottom"></div>
+                <div class="cta-container">
+                    <div class="cta-card">
+                        <div class="cta-blur-1"></div>
+                        <div class="cta-blur-2"></div>
+                        <div class="cta-content">
+                            <p class="section-label emerald">Concierge onboarding</p>
+                            <h2 class="section-title">Launch your Gemora storefront in less than 24 hours.</h2>
+                            <p class="section-description">Our specialists review documents, configure payment workflows, and help script your first premium listing so you can attract buyers immediately.</p>
+                            <div class="cta-actions">
+                                <a href="#plans" class="btn-cta-primary">Book onboarding call</a>
+                                <a href="mailto:hello@gemmarket.app" class="btn-cta-secondary">hello@gemmarket.app</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 2L6 10L16 30L26 10L16 2Z" fill="url(#indexFooterLogoGradient)"/>
+                                <path d="M16 2L10 8L16 14L22 8L16 2Z" fill="url(#indexFooterLogoGradient2)"/>
+                                <defs>
+                                    <linearGradient id="indexFooterLogoGradient" x1="16" y1="2" x2="16" y2="30" gradientUnits="userSpaceOnUse">
+                                        <stop offset="0%" stop-color="#6366f1"/>
+                                        <stop offset="50%" stop-color="#8b5cf6"/>
+                                        <stop offset="100%" stop-color="#ec4899"/>
+                                    </linearGradient>
+                                    <linearGradient id="indexFooterLogoGradient2" x1="16" y1="2" x2="16" y2="14" gradientUnits="userSpaceOnUse">
+                                        <stop offset="0%" stop-color="#ffffff" stop-opacity="0.3"/>
+                                        <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div>
+                            <p class="footer-brand-name">Gemora</p>
+                            <p class="footer-brand-tagline">Certified gemstone marketplace</p>
+                        </div>
+                    </div>
+                    <p class="footer-description">Connecting gem experts with global buyers through authenticity, transparency, and premium concierge support.</p>
+                </div>
+                <nav class="footer-nav">
+                    <a href="about.html">About</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="contact.html">Support</a>
+                </nav>
+                <div class="footer-newsletter">
+                    <p class="newsletter-label">Stay in the loop</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Email address" class="newsletter-input">
+                        <button class="newsletter-btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-container">
+                    <p>&copy; <span id="currentYear"></span> Gemora. All rights reserved.</p>
+                    <div class="footer-contact">
+                        <span>hello@gemmarket.app</span>
+                        <span>+94 77 123 4567</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
